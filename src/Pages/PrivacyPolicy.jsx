@@ -50,7 +50,7 @@ const PrivacyPolicy = () => {
 
           <p className="font-medium mb-2 mt-4 text-lg">8. Contact Us</p>
           <p className="mb-2">For questions or concerns about this policy, contact us at:</p>
-          <p className="font-semibold">nexfleetdynamics@gmail.com</p>
+          <p className="font-semibold">microfinance-solution@gmail.com</p>
         </div>
     )
 }

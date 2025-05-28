@@ -1,9 +1,9 @@
 import { NavLink, Link, Outlet, Navigate } from "react-router-dom";
 import { SiFacebook, SiInstagram, SiX } from "react-icons/si";
 
-import Logo from "../Components/Logo.jsx";
+/* import Logo from "../Components/Logo.jsx";
 
-import Bus from "../assets/svgs/city-bus-rafiki.svg";
+import Bus from "../assets/svgs/city-bus-rafiki.svg"; */
 
 const Layout = () => {
   return (

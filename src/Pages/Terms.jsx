@@ -4,7 +4,7 @@ const Terms = () => {
       <p className="font-medium mb-2 text-lg">Terms of Use</p>
       <p className="font-medium mb-2 text-lg">Last updated: June, 2024</p>
 
-      <p className="text-justify mb-2">Welcome to NexFleet Dynamics. By accessing or using our website and services related to our Bus Transportation Management System (BTMS), you agree to be bound by these Terms of Use. If you do not agree with any part of these terms, please do not use our platform.</p>
+      <p className="text-justify mb-2">Welcome to Microfinance Solution. By accessing or using our website and services related to our Bus Transportation Management System (BTMS), you agree to be bound by these Terms of Use. If you do not agree with any part of these terms, please do not use our platform.</p>
       
       <p className="text-justify mb-2">Our BTMS allows users to view bus schedules, book tickets, manage reservations, and receive notifications or updates about bus services. All users are expected to provide accurate information during registration or booking. You are responsible for maintaining the confidentiality of your login credentials and agree not to misuse our services, including but not limited to attempting unauthorized access, distributing malware, or engaging in fraudulent behavior.</p>
 
@@ -20,7 +20,7 @@ const Terms = () => {
 
       <p className="text-justify mb-2">These Terms are governed by the laws of Republic of the Philippines, and any disputes shall be resolved in the courts of Quezon City. We reserve the right to update or modify these Terms at any time, and continued use of the platform signifies your acceptance of any changes.</p>
 
-      <p className="text-justify mb-2">If you have any questions or concerns about these Terms of Use, please contact us at nexfleetdynamics@gmail.com or call us at +63 9123456789.</p>
+      <p className="text-justify mb-2">If you have any questions or concerns about these Terms of Use, please contact us at microfinance-solution@gmail.com or call us at +63 9123456789.</p>
     </div>
   );
 };
