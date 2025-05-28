@@ -22,7 +22,7 @@ const Card = ({ module }) => {
   return (
     <div
       onClick={() => setFlipped(!flipped)}
-      className="w-1/4 h-96 select-none cursor-pointer overflow-hidden relative p-10 border-[#003b6d] border-b-4 shadow border-2 rounded-3xl hover:shadow-[#01619d]/30 hover:shadow-xl duration-200 [perspective:1000px]"
+      className="group w-1/4 h-96 select-none cursor-pointer overflow-hidden relative p-10 border-[#332D2D] border-b-4 shadow border-2 rounded-3xl hover:shadow-[#332D2D]/30 hover:shadow-xl duration-200 [perspective:1000px]"
     >
       <div
         className={`relative w-full h-full transition-transform duration-500 [transform-style:preserve-3d] ${
@@ -30,7 +30,11 @@ const Card = ({ module }) => {
         }`}
       >
         <div className="absolute w-full h-full backface-hidden flex flex-col items-center">
-          <img src={module.illustration} alt={module.name} className="w-48" />
+           <img
+            src={module.illustration}
+            alt={module.name}
+            className="w-32 mb-4 duration-200 group-hover:drop-shadow-[0_4px_8px_#FFC100]"
+          />
           <p className="text-2xl font-semibold text-center">{module.name}</p>
           <p className="text-center">{module.desc}</p>
         </div>

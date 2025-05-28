@@ -1,8 +1,8 @@
-import HumanResourceI from "../assets/svgs/Resume-folder-cuate.svg";
-import CoreI from "../assets/svgs/Visual-data-amico.svg";
-import AdminI from "../assets/svgs/Admin-cuate.svg";
-import Finance from "../assets/svgs/Revenue-amico.svg";
-import LogisticsI from "../assets/svgs/Logistics-amico.svg";
+import HumanResourceI from "../assets/svgs/Profiling-pana.svg";
+import CoreI from "../assets/svgs/Coins-bro.svg";
+import AdminI from "../assets/svgs/Admin-rafiki.svg";
+import Finance from "../assets/svgs/Finance-leaders-pana.svg";
+import LogisticsI from "../assets/svgs/Logistics-rafiki.svg";
 
 import Bus from "../assets/svgs/city-bus-rafiki.svg";
 
@@ -60,7 +60,7 @@ const Modules = () => {
       {modules.map((module, index) => (
         <div
           key={index}
-          className="cursor-pointer overflow-hidden relative flex flex-col items-center px-10 py-10 border-[#003b6d] border-b-4 shadow border-2 rounded-3xl group hover:shadow-[#01619d]/30 hover:shadow-xl duration-200"
+          className="cursor-pointer overflow-hidden relative flex flex-col items-center px-10 py-10 border-[#332D2D] border-b-4 shadow border-2 rounded-3xl group hover:shadow-[#332D2D]/30 hover:shadow-xl duration-200"
           style={{ flex: '0 0 calc(33.333% - 2rem)', maxWidth: 'calc(33.333% - 2rem)', minWidth: '300px' }}
         >
           {/* Optional hover background image */}
@@ -74,7 +74,7 @@ const Modules = () => {
           <img
             src={module.illustration}
             alt={module.name}
-            className="w-40 z-10 mb-4 group-hover:drop-shadow-[0_4px_8px_#003b6d] group-hover:scale-105 duration-200"
+            className="w-40 z-10 mb-4 group-hover:drop-shadow-[0_4px_8px_#FFC100] group-hover:scale-105 duration-200"
           />
 
           {/* Name and Description */}
